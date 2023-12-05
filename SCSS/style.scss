@@ -1,0 +1,61 @@
+//colors
+$primary-color:#014133;
+$secondary-color:#94505D;
+$card-background:#BFC0B2;
+$grid-background: #61807A;
+$header:#7C2B32;
+$footer:#7C2B32;
+$grey: #5D4D50
+
+//font
+$font-base: K2D,sans-serif;
+$font-header:K2D;
+$font-size-headers:48px;
+$font-size-body:24px;
+
+
+
+//space
+$spacer: 20px;
+
+.header {
+    border: 5px, solid, $footer;
+    padding: $spacer;
+    margin-bottom: $spacer;
+    background-color: $footer;
+
+    &__title{
+        color:$card-background;
+        padding:$spacer;
+        font-family: $font-header;
+        align-items: start;
+        font-size: $font-size-headers;
+    }
+}
+
+.a{
+    color:$secondary-color;
+
+    &:hover,
+    &:focus {
+        color: $primary-color;
+    }
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    padding: $spacer;
+    background-color: $header;
+
+    &__link{
+        color: $secondary-color;
+
+    }
+
+    &__icon{
+        width: 50px;
+        height: 50px;
+    }
+
+}

@@ -1,0 +1,26 @@
+.header {
+  border: 5px, solid, #7C2B32;
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: #7C2B32;
+}
+.header__title {
+  color: #BFC0B2;
+  padding: 20px;
+  font-family: K2D;
+  align-items: start;
+  font-size: 48px;
+}
+
+.a {
+  color: #94505D;
+}
+.a:hover, .a:focus {
+  color: #014133;
+}
+
+.menu {
+  display: flex;
+  padding: 20px;
+  background-color: #5D4D50;
+}/*# sourceMappingURL=style.css.map */
