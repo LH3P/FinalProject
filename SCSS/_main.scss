@@ -1,0 +1,47 @@
+@use 'colors';
+@use 'footer';
+@use 'form';
+@use 'grid';
+@use 'header';
+@use 'menu';
+@use 'org-card';
+@use 'page';
+@use 'sign-in-form';
+
+
+//font
+$font-base: K2D,sans-serif;
+$font-size-h1:48px;
+$font-size-h2:36px;
+$font-size-body:24px;
+
+//space
+$spacer: 20px;
+
+html {
+    box-sizing: border-box;
+}
+
+*, ::before, ::after{
+    box-sizing: inherit;
+}
+
+.a{
+    color:colors.$secondary-color;
+
+    &:hover,
+    &:focus {
+        color: colors.$primary-color;
+    }
+}
+
+    @media screen and (min-width 700px){
+        display: flex;
+        
+    }
+
+    @media screen and (min-width 900px){
+        display: flex;
+        
+    }
+}

@@ -1,0 +1,32 @@
+//font
+$font-base: K2D,sans-serif;
+$font-header:K2D;
+$font-size-headers:48px;
+$font-size-body:24px;
+
+.menu {
+    display: block;
+    padding: $spacer;
+    background-color: $header;
+
+    &__link{
+        color: $secondary-color;
+
+    }
+
+    &__icon{
+        min-width: 50px;
+        min-height: 50px;
+        background-color: $card-background;
+    }
+
+    @media screen and (min-width 700px){
+        display: flex;
+        
+    }
+
+    @media screen and (min-width 900px){
+        display: flex;
+        
+    }
+}
