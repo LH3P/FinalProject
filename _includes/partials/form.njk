@@ -19,9 +19,16 @@
     <label for="Phone Number">Phone Number</label>
     <input type ="tel" name="Phone Number" id="Phone Number" placeholder="Phone Number in format +33(0)" autofocus required>
 
-    <label for="Activity">Activity</label>
-    <select> <option> </select>
-
+    <label for="Activity">Choose an activity:</label>
+    <select name="Activity" id="Activity-select">
+    <option value="">--Please choose an option--</option>
+    <option value="Tennis">Tennis</option>
+    <option value="Dance">Dance</option>
+    <option value="Music">Music</option>
+    <option value="Art">Art</option>
+    <option value="Gymnastics">Gymnastics</option>
+    <option value="Outdoor activities">Outdoor activities</option>
+    </select>
 
     <input type ="text" name="Last Name" id="Last Name" placeholder="Last Name" autofocus required>
 
@@ -40,8 +47,7 @@
     <label for="Last Name">Last Name</label>
     <input type ="text" name="Last Name" id="Last Name" placeholder="Last Name" autofocus required>
 
-    <label for="Validate">Validate</label>
-    <input type ="submit" value="Validate">
+    <button type ="submit" name="Submit">Sign Up</button>
 
 </form>
 

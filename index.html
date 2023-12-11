@@ -1,59 +1,30 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>KidsAfterSchool</title>
-    <link href="https://fonts.googleapis.com/css2?family=K2D:ital,wght@0,100;0,200;0,400;0,600;0,800;1,100;1,200;1,400;1,600;1,800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/css/style.css">
+---
+layout: main.njk
+---
 
-</head>
+<!-- vložíme hlavičku stránky -->
+{% include 'partials/header.njk' %}
+
+<div class="introduction">
+
+	<main class="about">
+
+		Extracurricular activities play a crucial role in a child's development, offering opportunities for learning, socialization, and skill-building. The choice of activities depends on the child's interests, age, and available resources. Via the menu below you can access to some of available activities in your neigbourhood like sports or martial arts, arts and crafts, dance, theatre and music, outdoor adventures, clubs for young geeks or small book lovers.
+
+        Encouraging children to explore a variety of activities helps them discover their interests and passions. It's important to strike a balance and ensure that the activities are age-appropriate and aligned with the child's abilities and preferences. Additionally, involving children in the decision-making process can make extracurricular activities more enjoyable and rewarding for them.
+
+        We hope that our web page will help you to find the best for your kid with regard to his/her interests, distance from your home as well as your budget. 
+        
+        Please let us know if you would have any idea on further improvement of our page, any idea or question will be welcomed! 
+	</main>
+
+</div>
+
+<!-- přidáme menu -->
+{% include 'partials/menu.njk' %}
+
+<!-- vložíme patičku stránky -->
+{% include 'partials/footer.njk' %}
 <body>
-    <header class="header">
-        <div class="header__title">"Free Time Activities For Kids"</div>
-        <a href="header__sign-in">
-            <img class="header__img" src="/images/icons8-sign-in.png" alt="sign-in">
-        </a>
 
-    </header>
-    
-    <menu class="menu">
-        <ul class="menu__item">
-            <a class="menu__link" href="wednesday.html" alt="WEDNESDAY"></a>
-            <img class="menu__icon" src="/images/icons8-wednesday.png" alt="wednesday">
-        </ul>
-        <ul class="menu__item">
-            <a class="menu__link" href="year-vacations.html"></a>
-            <img class="menu__icon" src="/images/icons8-year-vacs.png" alt="year-vacations">
-        </ul>
-        <ul class="menu__item">
-            <a class="menu__link" href="summer.html"></a>  
-            <img class="menu__icon" src="/images/icons8-palm.png" alt="palm">
-        </ul>
-        <ul class="menu__item">
-            <a class="menu__link" href="events.html"></a>
-            <img class="menu__icon" src="/images/icons8-event.png" alt="events">  
-        </ul>
-        
-
-    </menu>
-    <main class="main">
-        
-    </main>
-    <footer class="footer">
-        <div class="footer__container">
-            <div class="footer__item"> 
-                <img class="footer__icon" src="/images/icons8-email-48.png" alt="email-icon">Contact: LH3P@gmail.com
-            </div>;
-
-            <div class="footer__item">
-                <img class="footer__icon" src="/images/icons8-cell-48.png" alt="cell-icon">+33(0)6 63 75 17 91
-            </div>
-
-            <div class="footer__item">
-                <div class="footer__info">Design @LH3P, Icons by Icons8 </div>
-            </div>
-    </footer>
-    
-</body>
 </html>
