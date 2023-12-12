@@ -1,3 +1,4 @@
+[
 {
     "id": 1,
     "organisation": "Maison Pour Tous Saint-Romain de Colbosc",
@@ -34,7 +35,7 @@
   },
 {
     "id": 4,
-    "organisation":  "Association Les Pierres qui roulent",,
+    "organisation":  "Association Les Pierres qui roulent",
     "activity": "Carnaval",
     "date": "17/02/2024",
     "age":"3-15",
@@ -42,6 +43,5 @@
     "vacancies": "NA",
     "description": "Rejoignez-nous pour la fête de carneval pour un aprés_midi rempli de joie, de la danse et de bon hummeur»",
     "foto": "ballons.png"
-  },
-  
+  }
 ]

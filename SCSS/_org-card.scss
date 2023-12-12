@@ -1,0 +1,27 @@
+.org-cards
+    &__org.card {
+    background-color: #4c7706;
+    color: white;
+    text-align: center;
+  }
+  
+  .animals .animal img {
+    width: 100%;
+    display: block;
+  }
+  
+  .animals .animal__content {
+    padding: 20px;
+  }
+  
+  .animals .animal__content :first-child {
+    margin-top: 0;
+  }
+  
+  .animals .animal__content :last-child {
+    margin-bottom: 0;
+  }
+  
+  .animals .animal h2 {
+    margin-bottom: 10px;
+  }

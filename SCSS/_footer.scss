@@ -5,7 +5,7 @@ $font-size-footer:16px;
 
 .footer {
     display: block;
-    padding: $spacer;
+    padding: main.$spacer;
     background-color: colors.$footer;
     font-family: $font-footer;
     font-size: $font-size-footer;
