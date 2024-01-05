@@ -1,0 +1,20 @@
+@use 'colors';
+@use 'main';
+
+//form
+$form-font:14px;
+$label-margin:10px;
+
+form {
+    width:100%;
+    max-width: 450px;
+}
+
+.form-field {
+    margin-bottom: $label-margin;
+
+    & label{
+        display: block;
+        font-size: $form-font;
+    }
+}

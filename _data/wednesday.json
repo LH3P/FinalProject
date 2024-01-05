@@ -2,46 +2,91 @@
   {
     "id": 1,
     "organisation": "Maison Pour Tous Saint-Romain de Colbosc",
-    "activity": "Spectacle de Noel",
-    "date": "16/12/2023",
+    "activity": "Atelier Lecture Maternelles",
+    "date": "10/01 - 26/06/2024",
     "age":"3-6",
     "price": "gratuit",
     "vacancies": "NA",
-    "description": "Le 25 décembre approche à grand pas et les lutins ont pain sur la planche : ils doivent préparer tous les cadeaux des enfants. Alors que les préparatifs touchent à leur fin, Tincelle la lutine provoque une catastrophe et sème la panique à l’atelier ! Les lutins parviendront ils à réparer les dégâts à temps avant la tournée des cadeaux ? »",
-    "foto": "spectacles-contes-de-noel.webp"
+    "description": "Atelier lecture tout les mecredis matin du janvier au juin pour faire grandir l'amour pour les livres depuis la maternelle.",
+    "foto": "boy_with_book.png"
   },
 
-{
+  {
     "id": 2,
     "organisation": "Maison Pour Tous Saint-Romain de Colbosc",
-    "activity": "Atelier pain d'epices",
-    "date": "16/12/2023",
-    "age":"3-15",
+    "activity": "Atelier Lecture Maternelles",
+    "date": "10/01 - 26/06/2024",
+    "age":"7-12",
     "price": "gratuit",
     "vacancies": "NA",
-    "description": "Connaissez vous le pain d’épices ? Traditionnel gâteau de Noël à déguster au goûter ou en fin de repas, ou petit bonhomme valeureux et croquant, le pain d’épices sera représenté sous plusieurs formes cette année grâce aux joyeux lutins du Père Noël qui vous ont préparé un tas d’animations ! »",
-    "foto": "ginger-bread.png"
+    "description": "Atelier lecture tout les mecredis apres-midi du janvier au juin pour faire grandir l'amour pour les livres depuis la maternelle.",
+    "foto": "boy_with_book.png"
   },
 {
     "id": 3,
-    "organisation": "Association Les Pierres qui roulent",
-    "activity": "Chorale et Marché de Noel de l'école",
-    "date": "23/12/2023",
-    "age":"all",
-    "price": "gratuit",
+    "organisation": "Maison Pour Tous Saint-Romain de Colbosc",
+    "activity": "Sortie Skatepark accompagnée",
+    "date": "20/03 - 26/06/2024",
+    "age":"8-15",
+    "price": "3EUR par sortie",
     "vacancies": "NA",
-    "description": "Le petit marché annuel de Noêl avec chorale et la vente des créations de nos éleves pour récolter les fonds pour l'association.»",
-    "foto": "marches-de-noel-ecole.webp"
+    "description": "C'est parti! Tous au skateparc à coté de la piscine a Saint Romain de Colbosc pour prendre l'air, rencontrer les nouevaux copains et pour apprendre les tricks avec Antoine et Louna",
+    "foto": "girl-riding-skateboard.png"
   },
 {
     "id": 4,
-    "organisation":  "Association Les Pierres qui roulent",
-    "activity": "Carnaval",
-    "date": "17/02/2024",
-    "age":"3-15",
+    "organisation": "Association Les Pierres qui roulent",
+    "activity": "Visite de la ferme Dusmenil",
+    "date": "15/05/2024",
+    "age":"all",
     "price": "gratuit",
-    "vacancies": "NA",
-    "description": "Rejoignez-nous pour la fête de carneval pour un aprés_midi rempli de joie, de la danse et de bon hummeur»",
-    "foto": "ballons.png"
+    "vacancies": "16",
+    "description": "Venez avec nous à la ferme de la famille Dusmenil pour passer une journée avec les animaux et dans la nature. Vous allez découvrir la vie de la ferme et ses produits (fruits, fromages, etc.)",
+    "foto": "farmers.png"
+  },
+  {
+    "id": 5,
+    "organisation": "Association Les Pierres qui roulent",
+    "activity": "Visite de la ferme Dusmenil",
+    "date": "04/09/2024",
+    "age":"all",
+    "price": "gratuit",
+    "vacancies": "16",
+    "description": "Venez avec nous à la ferme de la famille Dusmenil pour passer une journée avec les animaux et dans la nature. Vous allez découvrir la vie de la ferme et ses produits (fruits, fromages, etc.)",
+    "foto": "farmers.png"
+  },
+{
+    "id": 6,
+    "organisation":  "Association Les Pierres qui roulent",
+    "activity": "Atelier Portrait et Sketch",
+    "date": "13/09/2023 - 26/06/2024",
+    "age":"9-15",
+    "price": "2EUR ",
+    "vacancies": "10",
+    "description": "Assosciation Les Pierres qui roulent vous invite a rejoindre l'atelier du Portrait et Sketch avec Anne-Julie tous les mercredis de 10h - 11h30 dans la salle polyvalente de la commune.",
+    "foto": "girl_sketching.png"
+  },
+  {
+    "id": 7,
+    "organisation":  "Association Les Pierres qui roulent",
+    "activity": "Yoga pour les enfants",
+    "date": "13/09/2023 - 26/06/2024",
+    "age":"9-15",
+    "price": "2EUR ",
+    "vacancies": "12",
+    "description": "Venez decouvrir le bien-etre du yoga pour les enfants tous les mercredis de 16h-17h.",
+    "foto": "yoga_boy.png"
+  },
+  
+  {
+    "id": 8,
+    "organisation":  "Association Les Pierres qui roulent",
+    "activity": "Atelier Portrait et Sketch",
+    "date": "13/09/2023 - 26/06/2024",
+    "age":"9-15",
+    "price": "2EUR ",
+    "vacancies": "10",
+    "description": "Assosciation Les Pierres qui roulent vous invite a rejoindre l'atelier du Portrait et Sketch avec Anne-Julie tous les mercredis de 10h - 11h30 dans la salle polyvalente de la commune.",
+    "foto": "girl_sketching.png"
   }
 ]

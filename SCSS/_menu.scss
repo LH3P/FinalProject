@@ -1,3 +1,6 @@
+@use 'colors';
+@use 'main';
+
 //font
 $font-base: K2D,sans-serif;
 $font-header:K2D;
@@ -11,7 +14,6 @@ $font-size-body:24px;
 
     &__link{
         color: $secondary-color;
-
     }
 
     &__icon{
@@ -20,13 +22,13 @@ $font-size-body:24px;
         background-color: $card-background;
     }
 
-    @media screen and (min-width 700px){
-        display: flex;
-        
-    }
+    &_menu {
+        @media only screen and (min-width: 700px){
+        display: flex
+        }
 
-    @media screen and (min-width 900px){
-        display: flex;
-        
+        @media only screen and (min-width: 900px){
+        display: flex
+        }
     }
 }

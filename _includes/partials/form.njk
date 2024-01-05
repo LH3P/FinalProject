@@ -1,53 +1,76 @@
-<form method="get" action="post">
-    <label for="Mr/Mme">Please select Mr or Mme</label>
-    <input type ="radio" name="Mr/Mme" id="Mr" value="Mr" required>
-    <input type ="radio" name="Mr/Mme" id="Mme" valu="Mme" required>
- 
-    <label for="Last Name">Last Name</label>
-    <input type ="text" name="Last Name" id="Last Name" placeholder="Last Name" autofocus required>
+<form action ="https://formular.itgirls.cz method="get">
+    <div class="form-field">
+        <label class="form-field_label" for="Mr/Mme">Please select Mr or Mme</label>
+        <input type ="radio" name="Mr/Mme" id="Mr" value="Mr" required>
+        <input type ="radio" name="Mr/Mme" id="Mme" valu="Mme" required>
+    </div>
+    
+    <div class="form-field">
+        <label class="form-field_label" for="Last Name">Last Name</label>
+        <input type ="text" name="Last Name" id="Last Name" placeholder="Last Name" autofocus required>
+    </div>
 
-    <label for="First Name">First Name</label>
-    <input type ="text" name="First Name" id="First Name" placeholder="First Name" autofocus required>
+    <div class="form-field">
+        <label class="form-field_label" for="First Name">First Name</label>
+        <input type ="text" name="First Name" id="First Name" placeholder="First Name" autofocus required>
+    </div>
 
-    <label for="Address">Address</label>
-    <textarea name="Address" id="Address" rows="6" cols="20" maxlenght="400" placeholder="Address" autofocus required>
-    </textarea>
+    <div class="form-field">
+        <label class="form-field_label" for="Address">Address</label>
+        <textarea name="Address" id="Address" rows="6" cols="20" maxlenght="400" placeholder="Address" autofocus required>
+        </textarea>
+    </div>    
 
-    <label for="Email">Email</label>
-    <input type ="email" name="Email" id="Email" placeholder="Email" autofocus required>
+    <div class="form-field">
+        <label class="form-field_label" for="Email">Email</label>
+        <input type ="email" name="Email" id="Email" placeholder="Email" autofocus required>
+    </div>
 
-    <label for="Phone Number">Phone Number</label>
-    <input type ="tel" name="Phone Number" id="Phone Number" placeholder="Phone Number in format +33(0)" autofocus required>
+    <div class="form-field">
+        <label class="form-field_label" for="Phone Number">Phone Number</label>
+        <input type ="tel" name="Phone Number" id="Phone Number" placeholder="Phone Number in format +33(0)" autofocus required>
+    </div>
 
-    <label for="Activity">Choose an activity:</label>
-    <select name="Activity" id="Activity-select">
-    <option value="">--Please choose an option--</option>
-    <option value="Tennis">Tennis</option>
-    <option value="Dance">Dance</option>
-    <option value="Music">Music</option>
-    <option value="Art">Art</option>
-    <option value="Gymnastics">Gymnastics</option>
-    <option value="Outdoor activities">Outdoor activities</option>
-    </select>
+    <div class="form-field">
+        <label class="form-field_label" for="Activity">Choose an activity:</label>
+        <select name="Activity" id="Activity-select">
+        <option value="">--Please choose an option--</option>
+        <option value="Tennis">Tennis</option>
+        <option value="Dance">Dance</option>
+        <option value="Music">Music</option>
+        <option value="Art">Art</option>
+        <option value="Gymnastics">Gymnastics</option>
+        <option value="Outdoor activities">Outdoor activities</option>
+        </select>
+    </div>
 
-    <input type ="text" name="Last Name" id="Last Name" placeholder="Last Name" autofocus required>
+    <div class="form-field">
+        <label class="form-field_label" for="Start Date">Start Date</label>
+        <input type ="date" name="Start Date" id="Start Date" placeholder="Start Date" autofocus required>
+    </div>
 
-    <label for="Start Date">Start Date</label>
-    <input type ="date" name="Start Date" id="Start Date" placeholder="Start Date" autofocus required>
+    <div class="form-field">
+        <label class="form-field_label" for="End Date">End Date</label>
+        <input type ="date" name="End Date" id="End Date" placeholder="End Date" autofocus required>
+    </div>
 
-    <label for="End Date">End Date</label>
-    <input type ="date" name="End Date" id="End Date" placeholder="End Date" autofocus required>
+    <div class="form-field">
+        <label class="form-field_label" for="Child Last Name">Child Last Name</label>
+        <input type ="text" name="Child Last Name" id="Child Last Name" placeholder="Child Last Name" autofocus required>
+    </div>
 
-    <label for="Child Last Name">Child Last Name</label>
-    <input type ="text" name="Child Last Name" id="Child Last Name" placeholder="Child Last Name" autofocus required>
+    <div class="form-field">
+        <label class="form-field_label" for="Child First Name">Child First Name</label>
+        <input type ="text" name="Child First Name" id="Child First Name" placeholder="Child First Name" autofocus required>
 
-    <label for="Child First Name">Child First Name</label>
-    <input type ="text" name="Child First Name" id="Child First Name" placeholder="Child First Name" autofocus required>
+    <div class="form-field">
+        <label class="form-field_label" for="Date of Birth">Date of Birth</label>
+        <input type ="date" name="Date of Birth" id="Date of Birth" placeholder="Date of Birth in format DD/MM/YYYY" autofocus required>
+    </div>
 
-    <label for="Last Name">Last Name</label>
-    <input type ="text" name="Last Name" id="Last Name" placeholder="Last Name" autofocus required>
-
-    <button type ="submit" name="Submit">Sign Up</button>
+    <div class="form-button">
+        <button type ="submit" name="Submit">Sign Up</button>
+    </div>
 
 </form>
 

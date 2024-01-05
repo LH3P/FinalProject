@@ -1,3 +1,7 @@
+@use 'colors';
+@use 'main';
+@use 'form'
+
 //font
 
 $font-footer:K2D;
@@ -12,7 +16,6 @@ $font-size-footer:16px;
 
     &__link{
         color: colors.$secondary-color;
-
     }
 
     &__icon{
@@ -21,12 +24,12 @@ $font-size-footer:16px;
         background-color: $card-background;
     }
     
-    &__container
-        @media screen and (min-width 700px){
-        display: flex;
-    }
-        @media screen and (min-width 900px){
-        display: flex;
-        
-    }
+    &__container {
+        @media only screen and (min-width: 700px){
+        display: flex
+        }
+        @media only screen and (min-width: 900px){
+        display: flex
+        }
+    }  
 }
