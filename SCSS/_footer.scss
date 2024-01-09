@@ -2,17 +2,15 @@
 @use 'main';
 @use 'form'
 
-//font
-
-$font-footer:K2D;
-$font-size-footer:16px;
-
 .footer {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex: 0 0 1;
     padding: main.$spacer;
     background-color: colors.$footer;
-    font-family: $font-footer;
-    font-size: $font-size-footer;
+    font-family: main.$font-base;
+    font-size: main.$font-size-footer;
 
     &__link{
         color: colors.$secondary-color;

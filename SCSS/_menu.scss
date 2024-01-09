@@ -8,27 +8,30 @@ $font-size-headers:48px;
 $font-size-body:24px;
 
 .menu {
-    display: block;
     padding: $spacer;
-    background-color: $header;
+    background-color: aqua;
 
+    &__list{
+        display:flex;
+        list-style-type: none;
+    
     &__link{
-        color: $secondary-color;
-    }
+        color:colors.$secondary-color;
 
     &__icon{
         min-width: 50px;
         min-height: 50px;
         background-color: $card-background;
+        color: $card-background;
     }
-
-    &_menu {
-        @media only screen and (min-width: 700px){
-        display: flex
-        }
-
-        @media only screen and (min-width: 900px){
-        display: flex
-        }
     }
 }
+.menu {
+    @media only screen and (min-width: 700px){
+    display: flex
+    }
+
+    @media only screen and (min-width: 900px){
+    display: flex
+    }
+}  

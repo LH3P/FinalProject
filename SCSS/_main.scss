@@ -14,6 +14,7 @@ $font-base: K2D,sans-serif;
 $font-size-h1:48px;
 $font-size-h2:36px;
 $font-size-body:24px;
+$font-size-footer:16px;
 
 //space
 $spacer: 20px;
@@ -33,4 +34,17 @@ html {
     &:focus {
         color: colors.$primary-color;
     }
+}
+
+.introduction {
+    font-size:$font-size-body;
+    text-align:justify;
+    color: blue;
+    margin-block-end:0;
+    margin-block-start:0 ;
+}
+
+.p{
+    padding: $spacer;
+    text-align: justify;
 }
