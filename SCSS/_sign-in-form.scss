@@ -1,10 +1,11 @@
-
+@use 'colors';
+@use'main';
 
 .a{
-    color:$secondary-color;
+    color:colors.$secondary-color;
 
     &:hover,
     &:focus {
-        color: $primary-color;
+        color: colors.$primary-color;
     }
 }

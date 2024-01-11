@@ -1,6 +1,6 @@
 @use 'colors';
 @use 'main';
-@use 'form'
+@use 'form';
 
 .footer {
     display: flex;
@@ -19,7 +19,7 @@
     &__icon{
         min-width: 50px;
         min-height: 50px;
-        background-color: $card-background;
+        background-color: colors.$card-background;
     }
     
     &__container {

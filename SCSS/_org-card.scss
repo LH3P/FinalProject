@@ -2,9 +2,8 @@
 @use 'main';
 @use 'grid';
 
-.org-cards
-    &__org.card {
-    background-color: #4c7706;
+.org-cards {
+    background-color:colors.$card-background;
     color: white;
     text-align: center;
   }

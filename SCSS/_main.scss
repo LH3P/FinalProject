@@ -1,19 +1,10 @@
 @use 'colors';
-@use 'footer';
-@use 'form';
-@use 'grid';
-@use 'header';
-@use 'menu';
-@use 'org-card';
-@use 'page';
-@use 'sign-in-form';
-
 
 //font
 $font-base: K2D,sans-serif;
 $font-size-h1:48px;
 $font-size-h2:36px;
-$font-size-body:24px;
+$font-size-body:20px;
 $font-size-footer:16px;
 
 //space
@@ -27,6 +18,12 @@ html {
     box-sizing: inherit;
 }
 
+body{
+    margin:0;
+    padding:0;
+    font-family:$font-base;
+    font-size: $font-size-body;
+}
 .a{
     color:colors.$secondary-color;
 
@@ -37,13 +34,18 @@ html {
 }
 
 .introduction {
-    font-size:$font-size-body;
+    padding:0 $spacer;
     text-align:justify;
-    color: blue;
+    color: colors.$primary-color;
     margin-block-end:0;
     margin-block-start:0 ;
 }
-
+h2{
+    font: $font-base;
+    font-size: $font-size-h2;
+    text-shadow: 1px 1px 2px colors.$card-background;
+    margin:0;
+}
 .p{
     padding: $spacer;
     text-align: justify;

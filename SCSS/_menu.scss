@@ -8,22 +8,28 @@ $font-size-headers:48px;
 $font-size-body:24px;
 
 .menu {
-    padding: $spacer;
-    background-color: aqua;
+    padding:main.$spacer;
+    background-color: colors.$grid-background;
 
     &__list{
-        display:flex;
         list-style-type: none;
-    
+    }
+    &__item{
+        display: flex;
+        flex-direction: column-reverse;
+    }
     &__link{
         color:colors.$secondary-color;
-
+        display: inline-block;
+        text-decoration: none;
+        text-shadow: 1px 1px 2px colors.$card-background;
+        font-size: main.$font-size-menu;
+    }
     &__icon{
         min-width: 50px;
         min-height: 50px;
-        background-color: $card-background;
-        color: $card-background;
-    }
+        color: colors.$card-background;
+        filter: saturate(500%) contrast(900%) brightness(500%) invert(80%) sepia(50%) hue-rotate(120deg);
     }
 }
 .menu {
