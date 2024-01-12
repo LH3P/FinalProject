@@ -1,3 +1,51 @@
 ---
 layout: layouts/subsite.njk
 ---
+<main>
+    <div class="org-cards">
+
+        {% for org-card in events %}
+    
+        <div class="org-card">
+    
+            <div class="org-card__header">
+                <img class="org-card__image" src="/images/{{org-card.foto}}" alt="">
+                <h2 class="org-card__title"> {{org-card.activity}}</h2>   
+            </div>
+    
+            <div class="org-card__content">
+                <div class="org-card__activity-description">
+                    <p>{{org-card.description}}</p>
+    
+                    <table class="org-card__details">
+                        <tr>
+                            <th>Organisation</th>
+                            <td>{{org-card.organisation}}</td>
+                        </tr>
+                        <tr>
+                            <th>Date</th>
+                            <td>{{org-card.date}}</td>
+                        </tr>
+                        <tr>
+                            <th>Age Group</th>
+                            <td>{{org-card.age}}</td>
+                        </tr>
+                        <tr>
+                            <th>Price in EUR</th>
+                            <td>{{org-card.price}}</td>   
+                        </tr>
+                        <tr>
+                            <th>Vacancies</th>
+                            <td>{{org-card.vacancies}}</td> 
+                    </table>
+                    
+                </div>
+            </div>
+            <div class="org-card__footer">
+                <a href="">sign in formular</a>
+            </div>
+         </div>
+    </div>
+    
+    {% endfor %}  
+</main>
