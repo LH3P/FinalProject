@@ -1,43 +1,68 @@
 @use 'colors';
 @use 'main';
 
-//font
-$font-base: K2D,sans-serif;
-$font-header:K2D;
-$font-size-headers:48px;
-$font-size-body:24px;
-
 .menu {
     padding:main.$spacer;
-    background-color: colors.$grid-background;
+    background-color: colors.$card-background;
+    margin-block-end:0;
+    margin-block-start: main.$spacer;
+    padding-inline-start: main.$spacer;
 
     &__list{
         list-style-type: none;
+        padding: main.$spacer;
+        align-items: center;
+        
     }
     &__item{
-        display: flex;
-        flex-direction: column-reverse;
+        display:flex;
+        align-items: center;
+        gap:main.$spacer;
+        background-color: colors.$grid-background;
+        min-width: 350px;
+        min-height: min-content;
+        padding: main.$spacer;
+        margin-bottom: main.$spacer-small;
+        font-weight: 900;
+        box-shadow: 0px 4px 6px #407BFF1F;
+        border-radius: 10px;
+        justify-content: center;
     }
     &__link{
         color:colors.$secondary-color;
         display: inline-block;
         text-decoration: none;
-        text-shadow: 1px 1px 2px colors.$card-background;
+        text-shadow: 0.5px 0.5px 1px colors.$card-background;
         font-size: main.$font-size-menu;
+        margin-top: main.$spacer-small;
+        align-items: center;
+        margin: auto;
     }
     &__icon{
-        min-width: 50px;
-        min-height: 50px;
+        width: 50px;
+        height: 50px;
         color: colors.$card-background;
         filter: saturate(500%) contrast(900%) brightness(500%) invert(80%) sepia(50%) hue-rotate(120deg);
+        align-items: center;
+        justify-content: center;
+
     }
 }
 .menu {
     @media only screen and (min-width: 700px){
-    display: flex
+    display: flex;
+    flex-direction: column-reverse;
+    flex: 0 1 calc((100% - 40px) / 2);
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
     }
 
     @media only screen and (min-width: 900px){
-    display: flex
+    display: flex;
+    flex-direction: column-reverse;
+    flex: 0 1 calc((100% - 80px) / 4);
+    flex-wrap: wrap;
+    justify-content: space-evenly;
     }
 }  

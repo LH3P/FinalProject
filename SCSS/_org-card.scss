@@ -8,23 +8,23 @@
     text-align: center;
   }
   
-  .animals .animal img {
+  .org-cards .org-card img {
     width: 100%;
     display: block;
   }
   
-  .animals .animal__content {
+  .org-cards .org-card__content {
     padding: 20px;
   }
   
-  .animals .animal__content :first-child {
+  .org-cards .org-card__content :first-child {
     margin-top: 0;
   }
   
-  .animals .animal__content :last-child {
+  .org-cards .org-card__content :last-child {
     margin-bottom: 0;
   }
   
-  .animals .animal h2 {
+  .org-cards .org-card h2 {
     margin-bottom: 10px;
   }

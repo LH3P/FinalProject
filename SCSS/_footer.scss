@@ -3,31 +3,53 @@
 @use 'form';
 
 .footer {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    flex: 0 0 1;
+    display: block;
     padding: main.$spacer;
     background-color: colors.$footer;
     font-family: main.$font-base;
     font-size: main.$font-size-footer;
+    color: colors.$card-background;
+    text-align: center;
 
-    &__link{
-        color: colors.$secondary-color;
+    &__item{
+        min-width: 350px;
+        padding: main.$spacer-small;
+        display:flex;
+        flex-direction: row;
+        gap:main.$spacer-small;
     }
-
     &__icon{
-        min-width: 50px;
-        min-height: 50px;
-        background-color: colors.$card-background;
+        width: 20px;
+        height: 20px;
+        filter: saturate(500%) contrast(900%) brightness(500%) invert(80%) sepia(50%) hue-rotate(120deg);
+
     }
     
     &__container {
         @media only screen and (min-width: 700px){
-        display: flex
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        flex: 0 0 1;
+
+        &__contacts{
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+        }
+
+        &__ref{
+            display: flex;
+            flex-direction: column;
+            align-items: end;
+        }
+
         }
         @media only screen and (min-width: 900px){
-        display: flex
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        flex: 0 0 1;
         }
     }  
 }
