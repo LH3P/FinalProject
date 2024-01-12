@@ -1,6 +1,10 @@
 ---
-layout: layouts/subsite.njk
+layout: layouts/main.njk
 ---
+<!-- vložíme hlavičku stránky -->
+{% include 'partials/header.njk' %}
+
+
 <main>
     <div class="org-cards">
 
@@ -37,8 +41,8 @@ layout: layouts/subsite.njk
                         <tr>
                             <th>Vacancies</th>
                             <td>{{org-card.vacancies}}</td> 
-                    </table>
-                    
+                        </tr>   
+                    </table> 
                 </div>
             </div>
             <div class="org-card__footer">
@@ -49,3 +53,5 @@ layout: layouts/subsite.njk
     
     {% endfor %}  
 </main>
+<!-- vložíme patičku stránky -->
+{% include 'partials/footer.njk' %}
